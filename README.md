@@ -1,3 +1,6 @@
 Sem2SPA
 
-Just a collection of Assignments done to track and see progress
+Just a collection of SPA Assignments done to track progress
+
+Contributers:
+     Barath Nadar
