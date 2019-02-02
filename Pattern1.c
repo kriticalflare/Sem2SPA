@@ -1,4 +1,13 @@
-//Simple Patterns
+//Simple Pattern
+/*
+Enter the now of rows you want
+5
+*
+**
+***
+****
+*****
+*/
 #include<stdio.h>
 int main()
 {
