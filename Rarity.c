@@ -2,11 +2,12 @@
 #include<stdio.h>
 int main()
 {
-    int T,B,sum1=0,a,i;
-    printf("Enter the Test Case\n");
+    int T,B,sum1=0,a,i,j;
     scanf("%d",&T);
-    printf("Enter the number of boxes\n");
+    for(j=1;j<=T;j++)
+    {
     scanf("%d",&B);
+    sum1=0;
     for(i=1;i<=B;i++)
     {
         scanf("%d",&a);
@@ -27,5 +28,6 @@ int main()
     if(sum1>75)
     {
         printf("L");
+    }
     }
 }
