@@ -1,19 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int a[10];
+	int a[5];
 	int i , sum = 0;
-	int *p;
-	printf("Enter the 10 elements\n");
-	for( i = 0 ; i < 10 ; i++)
+	printf("Enter the 5 elements\n");
+	for( i = 0 ; i < 5 ; i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	p = a;
-	for(i = 0 ; i <10 ; i++)
+	for(i = 0 ; i <5 ; i++)
 	{
-		sum = sum + *p;
-		p++;
+		sum = sum + a[i];
+		i++;
 	}
 	printf("%d is the sum \n",sum );
+	return 0;
 }
